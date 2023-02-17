@@ -41,6 +41,14 @@ const AboutMe = () => {
           <div className="pt-5">
             <Tabs experience={experience} education={education} />
           </div>
+          <div className="text-sm font-medium space-x-4 mb-10">
+            <button className="glassButton py-2 px-5 mt-7">
+              {t('DOWNLOAD_CV')}
+            </button>
+            <button className="glassButton py-2 px-5 mt-7">
+              {t('CONTACT_ME')}
+            </button>
+          </div>
         </div>
       </div>
     </div>
