@@ -30,6 +30,20 @@ body {
 @tailwind components;
 @tailwind utilities;
 
+/* Animations */
+.fade-in-animation {
+  animation: fadeIn 0.6s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 /* New components styles */
 h1,
 p {
@@ -54,7 +68,6 @@ main {
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.3);
   max-width: 1500px;
-  animation: fadeIn 0.7s;
 }
 
 .glassButton {
@@ -100,15 +113,6 @@ main {
 
 .colorAndFont {
   color: var(--primary-color);
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
 }
 
 @-webkit-keyframes fadeOut {
