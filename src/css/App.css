@@ -1,0 +1,135 @@
+#root {
+  width: 100%;
+  height: 100vh;
+  overflow: overlay;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --primary-color: #18293c;
+  --secondary-color: #008087;
+  --background-color-1: rgba(241, 255, 249, 0.8452655889145496);
+  --background-color-2: rgba(148, 187, 233, 0.7344110854503465);
+  --background-color-3: rgba(252, 176, 69, 0.5942752100840336);
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-weight: bold;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    -90deg,
+    var(--background-color-1) 0%,
+    var(--background-color-2) 50%
+  );
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* New components styles */
+h1,
+p {
+  color: var(--primary-color);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  min-height: 100%;
+  min-width: 390px;
+}
+
+#glassCard {
+  display: flex;
+  margin: 20px 0;
+  width: 80%;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  max-width: 1500px;
+  animation: fadeIn 0.7s;
+}
+
+.glassButton {
+  flex-grow: 1;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: var(--secondary-color);
+}
+
+.glassButton:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.circle {
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.3)
+  );
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+}
+
+.profilePic {
+  width: 70%;
+  max-width: 300px;
+  border: solid 5px white;
+}
+
+.glassCard {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.colorAndFont {
+  color: var(--primary-color);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.fadeOut {
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut;
+}

@@ -1,0 +1,36 @@
+{
+  "skills": [
+    "Javascript",
+    "ReactJS",
+    "React Native",
+    "NodeJS",
+    "ExpressJS",
+    "Docker",
+    "C/C++",
+    "HTML",
+    "CSS",
+    "Python"
+  ],
+
+  "experience": [
+    {
+      "time": "2021 - 2023",
+      "company": "Nubi",
+      "position": "Sr Software Engineer",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula."
+    },
+    {
+      "time": "2020 - 2021",
+      "company": "Swiss Medical",
+      "position": "Fullstack Developer",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula."
+    },
+    {
+      "time": "2017",
+      "company": "Jaits",
+      "position": "Fullstack Developer",
+      "description": "App para viajes"
+    }
+  ],
+  "education": []
+}
