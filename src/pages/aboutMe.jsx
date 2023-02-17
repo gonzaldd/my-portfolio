@@ -8,14 +8,17 @@ const AboutMe = () => {
   const { t } = useTranslation('ABOUT_ME')
 
   return (
-    <div id="glassCard" className="flex justify-start flex-col items-center">
+    <div
+      id="glassCard"
+      className="flex justify-start flex-col items-center fade-in-animation"
+    >
       <h1 className="mt-10 text-3xl font-medium mb-10 md:hidden">
         {t('TITLE')}
       </h1>
       <div className="flex w-full flex-col md:flex-row">
         <div className="flex flex-[0.5] justify-center">
-          <div className="glassCard rounded-lg mx-5 h-max md:mt-[110px] max-w-[70%] md:max-w-[70%]">
-            <img src={ProfilePic} className="rounded-lg" />
+          <div className="glassCard rounded-full h-max md:mt-[110px] xs:max-w-[60%] sm:max-w-[50%] md:max-w-[70%] ">
+            <img src={ProfilePic} className="rounded-full" />
           </div>
         </div>
         <div className="flex-1 px-5 pt-5 md:pt-0 text-xs">

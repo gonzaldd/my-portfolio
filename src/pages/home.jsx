@@ -13,11 +13,14 @@ function Home() {
 
   return (
     <>
-      <div id="glassCard" className="flex flex-col-reverse md:flex-row">
-        <section className="flex flex-1 md:items-start justify-center flex-col px-5 md:px-10 self-center">
-          <h1 className="font-light mb-2">{t('GREETING')}</h1>
-          <h1 className="text-4xl font-medium ">{t('MY_NAME')}</h1>
-          <h1 className="font-light mt-2">{t('ROLE')}</h1>
+      <div
+        id="glassCard"
+        className="flex flex-col-reverse md:flex-row fade-in-animation"
+      >
+        <section className="flex flex-1 md:flex-[1.5] flex-col justify-center items-center">
+          <p className="font-light mb-2">{t('GREETING')}</p>
+          <p className="text-4xl font-medium whitespace-pre">{t('MY_NAME')}</p>
+          <p className="font-light mt-2">{t('ROLE')}</p>
           <div className="flex text-sm font-medium space-x-4">
             <button
               className="glassButton py-2 px-5 mt-7"
@@ -33,7 +36,7 @@ function Home() {
             </button>
           </div>
         </section>
-        <section className="flex flex-1 justify-center items-center">
+        <section className="flex flex-1 justify-center md:justify-start items-end md:items-center">
           <img className="rounded-full profilePic" src={ProfilePic} />
         </section>
       </div>
