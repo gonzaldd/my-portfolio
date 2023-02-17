@@ -19,7 +19,9 @@ function Home() {
       >
         <section className="flex flex-1 md:flex-[1.5] flex-col justify-center items-center">
           <p className="font-light mb-2">{t('GREETING')}</p>
-          <p className="text-4xl font-medium whitespace-pre">{t('MY_NAME')}</p>
+          <p className="xs:text-3xl md:text-4xl font-medium whitespace-pre">
+            {t('MY_NAME')}
+          </p>
           <p className="font-light mt-2">{t('ROLE')}</p>
           <div className="flex text-sm font-medium space-x-4">
             <button
