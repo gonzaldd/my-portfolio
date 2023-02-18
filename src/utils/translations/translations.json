@@ -18,6 +18,9 @@
       "DESCRIPTION_3": "My combination of technical skills and intellectual curiosity makes me a highly skilled software developer, capable of tackling any challenge that comes my way. Additionally, my varied interests and love of continuous learning enable me to bring different perspectives and skills to any team or project I'm involved in. If you're looking for a highly skilled and curious software developer, feel free to get in touch with me!",
       "DOWNLOAD_CV": "Download CV",
       "CONTACT_ME": "Contact me"
+    },
+    "PORTFOLIO": {
+      "TITLE": "Recent Work"
     }
   },
   "es": {
@@ -38,7 +41,10 @@
       "DESCRIPTION_2": "Además de mi experiencia técnica, soy una persona muy curiosa y me encanta aprender cosas nuevas. Soy un ávido lector y me gusta estar al día con las últimas tendencias y avances en mi campo. También soy un apasionado del cine y me encanta ver películas de diferentes géneros y estilos. Como complemento a mi vida sedentaria de programador, también me gusta mantenerme activo y en forma, y disfruto del ejercicio regular.",
       "DESCRIPTION_3": "Mi combinación de habilidades técnicas y curiosidad intelectual me convierte en un desarrollador de software altamente capacitado, capaz de abordar cualquier desafío que se presente. Además, mis intereses variados y mi amor por el aprendizaje continuo me permiten aportar diferentes perspectivas y habilidades a cualquier equipo o proyecto en el que me involucre. Si está buscando un desarrollador de software altamente capacitado y curioso, ¡no dude en ponerse en contacto conmigo!",
       "DOWNLOAD_CV": "Descargar CV",
-      "CONTACT_ME": "Contacto"
+      "CONTACT_ME": "Contacto",
+      "PORTFOLIO": {
+        "TITLE": "Trabajos Recientes"
+      }
     }
   }
 }

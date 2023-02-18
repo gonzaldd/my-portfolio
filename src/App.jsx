@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './css/App.css'
 import Home from './pages/home'
 import AboutMe from './pages/aboutMe'
+import Portfolio from './pages/portfolio'
 import ErrorPage from './pages/notFound'
 
 const router = createBrowserRouter([
@@ -14,7 +15,10 @@ const router = createBrowserRouter([
   {
     path: '/about-me',
     element: <AboutMe />,
-    errorElement: <ErrorPage />,
+  },
+  {
+    path: '/portfolio',
+    element: <Portfolio />,
   },
 ])
 
