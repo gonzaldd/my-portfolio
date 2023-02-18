@@ -56,7 +56,14 @@ const Tabs = ({ experience = [], education = [] }) => {
                     {' - '}
                     <span className="font-normal">{exp?.position}</span>
                   </h4>
-                  <p className="font-light mb-3">{exp?.description}</p>
+                  <p className="text-sm font-light mb-3">{exp?.description}</p>
+                  <div className="inline-flex gap-2 flex-wrap">
+                    {exp?.techs?.map((tech) => (
+                      <button className="glassButton font-light px-2 text-xs text-custom-color-1 grow-0">
+                        {tech}
+                      </button>
+                    ))}
+                  </div>
                 </div>
               </li>
             ))}
