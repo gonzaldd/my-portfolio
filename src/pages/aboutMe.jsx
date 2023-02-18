@@ -1,10 +1,12 @@
 import { useTranslation } from 'react-i18next'
+import { useNavigate } from 'react-router-dom'
 
-import ProfilePic from '../assets/profile-pic-noback.png'
+import ProfilePic from '../assets/profile-pic-noback.webp'
 import Tabs from '../components/tabs'
 import { experience, education } from '../assets/data.json'
 
 const AboutMe = () => {
+  const navigate = useNavigate()
   const { t } = useTranslation('ABOUT_ME')
 
   return (

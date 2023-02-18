@@ -21,7 +21,15 @@
       "company": "Swiss Medical",
       "position": "Fullstack Developer",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula.",
-      "techs": ["ReactJS", "NodeJS", "ExpressJS", "NextJS", "MongoDB", "Docker"]
+      "techs": [
+        "ReactJS",
+        "NodeJS",
+        "ExpressJS",
+        "NextJS",
+        "MongoDB",
+        "Docker",
+        "Styled-Components"
+      ]
     },
     {
       "time": "2017",
