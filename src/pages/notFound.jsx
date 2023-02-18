@@ -9,7 +9,10 @@ export default function ErrorPage() {
   const handleGoHome = () => navigate('/')
 
   return (
-    <div id="glassCard" className="flex flex-col justify-center items-center">
+    <div
+      id="glassCard"
+      className="flex flex-col justify-center items-center fade-in-animation"
+    >
       <h1 className="text-8xl">{error.status} </h1>
       <h1 className="font-medium">{t('GENERIC_ERROR')}</h1>
       <p className="font-medium">

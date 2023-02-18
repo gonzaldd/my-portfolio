@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import { useNavigate } from 'react-router-dom'
 
-import ProfilePic from '../assets/profile-pic.png'
+import ProfilePic from '../assets/profile-pic-noback.png'
 
 function Home() {
   const navigate = useNavigate()
