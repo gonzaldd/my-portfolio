@@ -9,6 +9,17 @@ const AboutMe = () => {
   const navigate = useNavigate()
   const { t } = useTranslation('ABOUT_ME')
 
+  const onButtonClick = async () => {
+    //Save pdf in /public
+    const response = await fetch('Gonzalo-De-Domingo-CV.pdf')
+    const blob = await response.blob()
+    const fileURL = window.URL.createObjectURL(blob);
+    let alink = document.createElement('a');
+    alink.href = fileURL;
+    alink.download = 'Gonzalo-De-Domingo.pdf';
+    alink.click();
+  }
+
   return (
     <div
       id="glassCard"
@@ -23,7 +34,7 @@ const AboutMe = () => {
             <img src={ProfilePic} className="rounded-full" />
           </div>
           <div className="text-sm font-medium mt-7 inline-flex flex-wrap gap-2 justify-center">
-            <button className="glassButton py-2 px-5 max-w-[80%]">
+            <button className="glassButton py-2 px-5 max-w-[80%]" onClick={onButtonClick}>
               {t('DOWNLOAD_CV')}
             </button>
             <button className="glassButton py-2 px-5  max-w-[80%]">

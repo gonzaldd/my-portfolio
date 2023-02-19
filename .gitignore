@@ -28,5 +28,6 @@ GlassmorphismPortfolio/*
 src/assets/profile-pic-noback.png
 src/assets/profile-pic.png
 src/assets/profile-pic-noback.webp
-public/
+public/*
+!public/Gonzalo-De-Domingo-CV.pdf
 .firebase/hosting.cHVibGlj.cache
