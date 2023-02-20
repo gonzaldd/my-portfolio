@@ -25,11 +25,9 @@ body {
   min-height: 100vh;
   font-weight: bold;
   background: rgb(131, 58, 180);
-  background: linear-gradient(
-    0deg,
-    var(--background-color-1) 0%,
-    var(--background-color-2) 50%
-  );
+  background: linear-gradient(0deg,
+      var(--background-color-1) 0%,
+      var(--background-color-2) 50%);
 }
 
 @tailwind base;
@@ -38,16 +36,14 @@ body {
 
 /* Animations */
 .fade-in-animation {
-  animation: fadeIn 0.6s;
+  animation: fadeIn 1s;
 }
 
 @keyframes fadeIn {
   0% {
     opacity: 0;
   }
-  50% {
-    opacity: 50;
-  }
+
   100% {
     opacity: 1;
   }
@@ -97,11 +93,9 @@ main {
 
 .circle {
   background: white;
-  background: linear-gradient(
-    to right bottom,
-    rgba(255, 255, 255, 0.8),
-    rgba(255, 255, 255, 0.3)
-  );
+  background: linear-gradient(to right bottom,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.3));
   height: 5rem;
   width: 5rem;
   border-radius: 50%;
@@ -135,6 +129,7 @@ main {
   0% {
     opacity: 1;
   }
+
   100% {
     opacity: 0;
   }
@@ -144,6 +139,7 @@ main {
   0% {
     opacity: 1;
   }
+
   100% {
     opacity: 0;
   }
