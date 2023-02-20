@@ -1,5 +1,7 @@
 import { useState } from 'react'
 
+import Chip from './chip'
+
 const Tabs = ({ experience = [], education = [] }) => {
   const [openTab, setOpenTab] = useState(1)
 
@@ -59,9 +61,7 @@ const Tabs = ({ experience = [], education = [] }) => {
                   <p className="text-sm font-light mb-3">{exp?.description}</p>
                   <div className="inline-flex gap-2 flex-wrap">
                     {exp?.techs?.map((tech) => (
-                      <button className="glassButton font-light px-2 text-xs text-custom-color-1 grow-0">
-                        {tech}
-                      </button>
+                      <Chip text={tech} />
                     ))}
                   </div>
                 </div>
