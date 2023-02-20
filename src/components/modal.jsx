@@ -1,9 +1,8 @@
 const Modal = ({ open, closeModal, data }) => {
   return (
     <div
-      className={`absolute ${
-        open ? 'active' : 'hidden'
-      } bg-gray-600 bg-opacity-95 h-full w-full hidden-scrollbar`}
+      className={`absolute ${open ? 'active' : 'hidden'
+        } bg-gray-600 bg-opacity-70 h-full w-full hidden-scrollbar`}
     >
       <div className="flex flex-1 justify-center items-center">
         <div className="glassCard fade-in-animation rounded-lg items-center p-5 flex flex-col max-w-[95%] md:max-w-[70%] bg-modal my-5">
