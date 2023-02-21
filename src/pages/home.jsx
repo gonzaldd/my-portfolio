@@ -1,44 +1,32 @@
 import { useTranslation } from 'react-i18next'
-import { useNavigate } from 'react-router-dom'
 
+import Header from '../components/header'
 import ProfilePic from '../assets/profile-pic-noback.webp'
 
 function Home() {
-  const navigate = useNavigate()
   const { t } = useTranslation('HOME')
 
-  const navToScreen = (screenName) => navigate(screenName)
-
   return (
-    <div
-      id="glassCard"
-      className="flex flex-col-reverse md:flex-row fade-in-animation"
-    >
-      <section className="flex flex-1 md:flex-[1.5] flex-col justify-center items-center">
-        <p className="font-light mb-2">{t('GREETING')}</p>
-        <p className="xs:text-3xl md:text-4xl font-medium whitespace-pre">
-          {t('MY_NAME')}
-        </p>
-        <p className="font-light mt-2">{t('ROLE')}</p>
-        <div className="flex text-sm font-medium space-x-4">
-          <button
-            className="glassButton py-2 px-5 mt-7"
-            onClick={() => navToScreen('/about-me')}
-          >
-            {t('ABOUT_ME_BUTTON')}
-          </button>
-          <button
-            className="glassButton py-2 px-5 mt-7"
-            onClick={() => navToScreen('/portfolio')}
-          >
-            {t('PORTFOLIO_BUTTON')}
-          </button>
+    <>
+      <section id="home" className='flex flex-1 items-center min-h-[80%]'>
+        <div className='flex flex-1 flex-col px-16 py-20'>
+          <p className="sm:text-2xl font-light mb-2">{t('GREETING')}</p>
+          <p className="text-4xl sm:text-6xl lg:text-7xl font-medium">
+            {t('MY_NAME')}
+          </p>
+          <p className="sm:text-2xl font-light mt-2">{t('ROLE')}</p>
         </div>
       </section>
-      <section className="flex flex-1 justify-center md:justify-start items-end md:items-center">
-        <img className="rounded-full profilePic" src={ProfilePic} />
+      <section id="home" className='flex flex-1 items-center'>
+        <div className='flex flex-1 flex-col px-16 py-20'>
+          <p className="sm:text-2xl font-light mb-2">{t('GREETING')}</p>
+          <p className="text-4xl sm:text-6xl lg:text-7xl font-medium">
+            {t('MY_NAME')}
+          </p>
+          <p className="sm:text-2xl font-light mt-2">{t('ROLE')}</p>
+        </div>
       </section>
-    </div>
+    </>
   )
 }
 
