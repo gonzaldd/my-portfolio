@@ -1,161 +1,46 @@
-#root {
-  width: 100%;
-  height: 100vh;
-  overflow: overlay;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  --primary-color: #18293c;
-  --secondary-color: #008087;
-  --background-color-1: rgba(241, 255, 249, 0.8452655889145496);
-  --background-color-2: rgba(148, 187, 233, 0.7344110854503465);
-  --background-color-3: rgba(252, 176, 69, 0.5942752100840336);
+  /* --primary-color: #393939;
+  --background-color: rgb(26, 26, 26);
+  --secondary-color: white; */
+  --regular-font: "HelveticaNowDisplay-Regular";
+  --light-font: "HelveticaNowDisplay-Light";
 }
 
-#root::-webkit-scrollbar {
-  display: none;
-}
-
-body {
+* {
   margin: 0;
-  min-width: 320px;
-  min-height: 100vh;
-  font-weight: bold;
-  background: rgb(131, 58, 180);
-  background: linear-gradient(0deg,
-      var(--background-color-1) 0%,
-      var(--background-color-2) 50%);
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  vertical-align: baseline;
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+html {
+  height: 100vh;
+  scroll-behavior: smooth;
+  min-width: 320px;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+}
 
-/* Animations */
-.fade-in-animation {
+body, #root {
+  height: 100%;
+  background-color: var(--background-color);
+  color: var(--secondary-color);
+  font-family: var(--primary-font);
+}
+
+text-link {
+  cursor: pointer;
+}
+
+.fade-in-transition:hover {
   animation: fadeIn 1s;
 }
 
 @keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-/* New components styles */
-h1,
-p {
-  color: var(--primary-color);
-}
-
-main {
-  display: flex;
-  justify-content: center;
-  min-height: 100%;
-  min-width: 390px;
-}
-
-#glassCard {
-  display: flex;
-  margin: 20px 0;
-  width: 80%;
-  background: rgba(255, 255, 255, 0.2);
-  border-radius: 20px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  max-width: 1500px;
-}
-
-.glassButton {
-  flex-grow: 1;
-  background: rgba(255, 255, 255, 0.2);
-  border-radius: 20px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  color: var(--secondary-color);
-  white-space: pre;
-}
-
-.glassButton:hover {
-  background-color: rgba(255, 255, 255, 0.3);
-}
-
-.circle {
-  background: white;
-  background: linear-gradient(to right bottom,
-      rgba(255, 255, 255, 0.8),
-      rgba(255, 255, 255, 0.3));
-  height: 5rem;
-  width: 5rem;
-  border-radius: 50%;
-}
-
-.profilePic {
-  width: 70%;
-  max-width: 300px;
-  border: solid 5px white;
-}
-
-.glassCard {
-  background: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 255, 255, 0.4);
-}
-
-.colorAndFont {
-  color: var(--primary-color);
-}
-
-@media screen and (max-width: 530px) {
-  #glassCard {
-    width: 95%;
-  }
-}
-
-@-webkit-keyframes fadeOut {
-  0% {
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 0;
-  }
-}
-
-@keyframes fadeOut {
-  0% {
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 0;
-  }
-}
-
-.fadeOut {
-  -webkit-animation-name: fadeOut;
-  animation-name: fadeOut;
-}
-
-.hidden-scrollbar {
-  overflow: overlay;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-
-.bg-modal {
-  background: rgba(255, 255, 255, 0.4);
+  0% { opacity: 1; }
+  100% { opacity: 0.5; }
 }
