@@ -13,6 +13,8 @@
     },
     "ABOUT_ME": {
       "TITLE": "About Me",
+      "EXPERIENCE_TITLE": "Experience",
+      "EDUCATION_TITLE": "Education",
       "DESCRIPTION_1": "As a highly experienced software developer with over 6 years of experience, I have worked with a variety of technologies, but my specialty is JavaScript. I have extensive experience working with ReactJS, React Native, NodeJS, and ExpressJS. I have developed web and mobile applications, and have contributed to large-scale projects, which has given me a deep understanding of how to create high-quality, scalable applications.",
       "DESCRIPTION_2": "In addition to my technical experience, I am a very curious person and love to learn new things. I am an avid reader and enjoy keeping up with the latest trends and advancements in my field. I am also passionate about movies and enjoy watching films of different genres and styles. As a complement to my sedentary programmer lifestyle, I also like to stay active and in shape, and enjoy regular exercise.",
       "DESCRIPTION_3": "My combination of technical skills and intellectual curiosity makes me a highly skilled software developer, capable of tackling any challenge that comes my way. Additionally, my varied interests and love of continuous learning enable me to bring different perspectives and skills to any team or project I'm involved in. If you're looking for a highly skilled and curious software developer, feel free to get in touch with me!",
@@ -37,6 +39,8 @@
     },
     "ABOUT_ME": {
       "TITLE": "Sobre mi",
+      "EXPERIENCE_TITLE": "Experiencia",
+      "EDUCATION_TITLE": "Educación",
       "DESCRIPTION_1": "Como desarrollador de software altamente experimentado con más de 6 años de experiencia, he trabajado con una variedad de tecnologías, pero mi especialidad es JavaScript. Tengo una amplia experiencia trabajando con ReactJS, React Native, NodeJS y ExpressJS. He desarrollado aplicaciones web y móviles, y he contribuido a proyectos de gran escala, lo que me ha dado una comprensión profunda de cómo crear aplicaciones de alta calidad y escalables.",
       "DESCRIPTION_2": "Además de mi experiencia técnica, soy una persona muy curiosa y me encanta aprender cosas nuevas. Soy un ávido lector y me gusta estar al día con las últimas tendencias y avances en mi campo. También soy un apasionado del cine y me encanta ver películas de diferentes géneros y estilos. Como complemento a mi vida sedentaria de programador, también me gusta mantenerme activo y en forma, y disfruto del ejercicio regular.",
       "DESCRIPTION_3": "Mi combinación de habilidades técnicas y curiosidad intelectual me convierte en un desarrollador de software altamente capacitado, capaz de abordar cualquier desafío que se presente. Además, mis intereses variados y mi amor por el aprendizaje continuo me permiten aportar diferentes perspectivas y habilidades a cualquier equipo o proyecto en el que me involucre. Si está buscando un desarrollador de software altamente capacitado y curioso, ¡no dude en ponerse en contacto conmigo!",

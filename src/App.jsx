@@ -7,10 +7,11 @@ import ErrorPage from './pages/notFound'
 
 function App() {
   return (
-    <>
+    <div className="fade-in-animation">
       <Header />
       <Home />
-    </>
+      <AboutMe />
+    </div >
   )
 }
 

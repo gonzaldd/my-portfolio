@@ -2,7 +2,7 @@
   "experience": [
     {
       "time": "2021 - 2023",
-      "company": "Nubi",
+      "name": "Nubi",
       "position": "Sr Software Engineer",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula.",
       "techs": [
@@ -18,7 +18,7 @@
     },
     {
       "time": "2020 - 2021",
-      "company": "Swiss Medical",
+      "name": "Swiss Medical",
       "position": "Fullstack Developer",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula.",
       "techs": [
@@ -32,8 +32,8 @@
       ]
     },
     {
-      "time": "2017",
-      "company": "Jaits",
+      "time": "2017 - 2020",
+      "name": "Jaits",
       "position": "Fullstack Developer",
       "description": "App para viajes",
       "techs": [
@@ -47,13 +47,19 @@
         "Redux",
         "Socket IO"
       ]
+    },
+    {
+      "time": "2016 - 2017",
+      "name": "JMA Asociados",
+      "position": "Developer",
+      "description": "Management system"
     }
   ],
   "education": [
     {
       "time": "2013 - 2017",
       "name": "UNLa",
-      "career": "Lic. en Sistemas",
+      "position": "Lic. en Sistemas",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula."
     }
   ],
@@ -62,14 +68,33 @@
       "title": "App Landing Page",
       "img": "/assets/portfolio-example.webp",
       "created": "",
-      "techs": ["Javascript", "ReactJS v18", "React-Native v0.64"],
+      "techs": [
+        "Javascript",
+        "ReactJS v18",
+        "React-Native v0.64"
+      ],
       "description": "Est consectetur veniam mollit minim duis ad quis deserunt animcat esse adipisicing veniam commodo sint officia cillum ex. Nisi ullamco pariatur adipisicing laborum in minim ullamco officia sint sunt est. Nulla eiusmod consectetur dolore dolor culpa labore quis incididunt. Quis velit laborum mollit qui ut irure irure ipsum velit labore. Fugiat aliqua ut tempor ullamco proident nostrud sint ad aute.",
       "repo": null
     },
-    { "title": "Title 2", "img": "/assets/portfolio-example.webp" },
-    { "title": "Title 3", "img": "/assets/portfolio-example.webp" },
-    { "title": "Title 4", "img": "/assets/portfolio-example.webp" },
-    { "title": "Title 5", "img": "/assets/portfolio-example.webp" },
-    { "title": "Title 6", "img": "/assets/portfolio-example.webp" }
+    {
+      "title": "Title 2",
+      "img": "/assets/portfolio-example.webp"
+    },
+    {
+      "title": "Title 3",
+      "img": "/assets/portfolio-example.webp"
+    },
+    {
+      "title": "Title 4",
+      "img": "/assets/portfolio-example.webp"
+    },
+    {
+      "title": "Title 5",
+      "img": "/assets/portfolio-example.webp"
+    },
+    {
+      "title": "Title 6",
+      "img": "/assets/portfolio-example.webp"
+    }
   ]
 }
