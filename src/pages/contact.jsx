@@ -1,36 +1,40 @@
 import { useTranslation } from 'react-i18next'
 
-import LinkedinIcon from '../assets/linkedin-icon.svg'
-import GithubIcon from '../assets/github-icon.svg'
+import data from '../../data.json'
 
 const Contact = () => {
   const { t } = useTranslation('CONTACT')
   return (
-    <div id="contact" className="flex flex-col h-[90vh] px-16 py-20">
-      <p className="mt-10 text-5xl font-medium pb-20">{t('TITLE')}</p>
-      <div className="flex flex-col md:flex-row flex-wrap gap-x-40">
-        <div className="flex-initial mb-[5%] w-[10%]">
-          <div>
-            <p className="text-lg opacity-60 whitespace-pre">
-              {t('EMAIL_TEXT')}
-            </p>
-            <p className="text-2xl whitespace-pre">mail@mail.com</p>
-          </div>
-          <div className="my-28">
-            <p className="text-lg opacity-60 whitespace-pre">
-              {t('SOCIAL_NETWORKS_TEXT')}
-            </p>
-            <div className="flex">
-              <img
-                src={LinkedinIcon}
-                className="w-[100%] mr-7 cursor-pointer"
-              />
-              <img src={GithubIcon} className="w-[80%] cursor-pointer" />
-            </div>
-          </div>
+    <div
+      id="contact"
+      className="flex flex-col h-[70vh] px-8 py-6 md:px-16 md:py-10"
+    >
+      <p className="mt-10 text-3xl font-medium pb-20">{t('TITLE')}</p>
+      <div className="flex flex-row flex-wrap gap-x-40 gap-y-20">
+        <div className="flex flex-1 flex-col gap-y-4">
+          <p className="text-lg opacity-60 whitespace-pre">{t('EMAIL_TEXT')}</p>
+          <p className="text-lg md:text-2xl whitespace-pre">
+            gonzalodedomingo@gmail.com
+          </p>
         </div>
-        <div className="flex-1">
-          <p className="text-5xl">FORM</p>
+        <div className="flex flex-1 flex-col gap-y-4">
+          <p className="text-lg opacity-60 whitespace-pre">
+            {t('SOCIAL_NETWORKS_TEXT')}
+          </p>
+          <a
+            className="text-2xl whitespace-pre"
+            href={data?.linkedin}
+            target="_blank"
+          >
+            LinkedIn
+          </a>
+          <a
+            className="text-2xl whitespace-pre"
+            href={data?.github}
+            target="_blank"
+          >
+            Github
+          </a>
         </div>
       </div>
     </div>

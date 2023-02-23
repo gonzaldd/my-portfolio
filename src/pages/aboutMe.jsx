@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
 
 import BasicData from '../components/basicData'
-import { experience, education } from '../assets/data.json'
+import { experience, education } from '../../data.json'
 
 const AboutMe = () => {
   const { t } = useTranslation('ABOUT_ME')
@@ -18,32 +18,38 @@ const AboutMe = () => {
   }
 
   return (
-    <section id="about-me" className="flex flex-col pb-16">
-      <div className="flex flex-col md:flex-row flex-wrap px-16 py-20 gap-x-40">
+    <section id="about-me" className="flex flex-col pb-48">
+      <div className="flex flex-col md:flex-row flex-wrap px-8 py-6 md:px-16 md:py-10 gap-x-40">
         <div className="flex-initial mb-[5%] w-[10%]">
-          <p className="text-2xl whitespace-pre">{t('TITLE')}</p>
+          <p className="text-3xl whitespace-pre">{t('TITLE')}</p>
         </div>
         <div className="flex-1">
-          <p className="text-sm font-light opacity-60">{t('DESCRIPTION_1')}</p>
+          <p className="text-base font-light opacity-60 break-words">
+            {t('DESCRIPTION_1')}
+          </p>
+          <br />
+          <p className="text-base font-light opacity-60 break-words">
+            {t('DESCRIPTION_2')}
+          </p>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row flex-wrap px-16 gap-x-40">
+      <div className="flex flex-col md:flex-row flex-wrap px-8 py-6 md:px-16 md:py-10 gap-x-40">
         <div className="flex-initial mb-[5%] w-[10%]">
-          <p className="text-2xl whitespace-pre">{t('EXPERIENCE_TITLE')}</p>
+          <p className="text-3xl whitespace-pre">{t('EXPERIENCE_TITLE')}</p>
         </div>
         <div className="flex-1">
           <BasicData data={experience} />
         </div>
       </div>
-      <div className="flex flex-col md:flex-row flex-wrap py-16 px-16 gap-x-40">
+      <div className="flex flex-col md:flex-row flex-wrap px-8 py-6 md:px-16 md:py-10 gap-x-40">
         <div className="flex-initial mb-[5%] w-[10%]">
-          <p className="text-2xl whitespace-pre">{t('EDUCATION_TITLE')}</p>
+          <p className="text-3xl whitespace-pre">{t('EDUCATION_TITLE')}</p>
         </div>
         <div className="flex-1">
           <BasicData data={education} />
         </div>
       </div>
-      <div className="flex justify-center">
+      <div className="flex justify-center mt-20">
         <button className="bg-secondary-color text-primary-color p-5 rounded-sm fade-out-transition-hover">
           {t('DOWNLOAD_CV')}
         </button>

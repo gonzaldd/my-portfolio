@@ -7,7 +7,7 @@
     },
     "HOME": {
       "GREETING": "Hello, I'm",
-      "ROLE": "Senior Software Engineer",
+      "ROLE": "Fullstack Software Developer",
       "MY_NAME": "Gonzalo De Domingo"
     },
     "ABOUT_ME": {
@@ -25,31 +25,29 @@
       "GO_BACK_TEXT": "Show all Projects"
     },
     "CONTACT": {
-      "TITLE": "Contact me",
+      "TITLE": "Contact Me",
       "EMAIL_TEXT": "Email",
       "SOCIAL_NETWORKS_TEXT": "Social Networks"
     }
   },
   "es": {
     "HEADER": {
-      "ABOUT_TITLE": "Sobre mi",
+      "ABOUT_TITLE": "Sobre mí",
       "PORTFOLIO_TITLE": "Portfolio",
       "CONTACT_TITLE": "Contacto"
     },
     "HOME": {
       "GREETING": "Hola, mi nombre es",
-      "ROLE": "Senior Software Engineer",
+      "ROLE": "Desarrollador de Software Fullstack",
       "MY_NAME": "Gonzalo De Domingo"
     },
     "ABOUT_ME": {
-      "TITLE": "Sobre mi",
+      "TITLE": "Sobre mí",
       "EXPERIENCE_TITLE": "Experiencia",
       "EDUCATION_TITLE": "Educación",
-      "DESCRIPTION_1": "Como desarrollador de software altamente experimentado con más de 6 años de experiencia, he trabajado con una variedad de tecnologías, pero mi especialidad es JavaScript. Tengo una amplia experiencia trabajando con ReactJS, React Native, NodeJS y ExpressJS. He desarrollado aplicaciones web y móviles, y he contribuido a proyectos de gran escala, lo que me ha dado una comprensión profunda de cómo crear aplicaciones de alta calidad y escalables.",
-      "DESCRIPTION_2": "Además de mi experiencia técnica, soy una persona muy curiosa y me encanta aprender cosas nuevas. Soy un ávido lector y me gusta estar al día con las últimas tendencias y avances en mi campo. También soy un apasionado del cine y me encanta ver películas de diferentes géneros y estilos. Como complemento a mi vida sedentaria de programador, también me gusta mantenerme activo y en forma, y disfruto del ejercicio regular.",
-      "DESCRIPTION_3": "Mi combinación de habilidades técnicas y curiosidad intelectual me convierte en un desarrollador de software altamente capacitado, capaz de abordar cualquier desafío que se presente. Además, mis intereses variados y mi amor por el aprendizaje continuo me permiten aportar diferentes perspectivas y habilidades a cualquier equipo o proyecto en el que me involucre. Si está buscando un desarrollador de software altamente capacitado y curioso, ¡no dude en ponerse en contacto conmigo!",
-      "DOWNLOAD_CV": "Descargar CV",
-      "CONTACT_ME": "Contacto"
+      "DESCRIPTION_1": "Como desarrollador de software con más de 6 años de experiencia, he trabajado con una variedad de tecnologías, pero mi especialidad es JavaScript. He desarrollado aplicaciones web y móviles, y he contribuido a proyectos de gran escala, lo que me ha dado una comprensión profunda de cómo crear aplicaciones de alta calidad y escalables.",
+      "DESCRIPTION_2": "Mi combinación de habilidades técnicas y curiosidad intelectual me convierte en un desarrollador de software altamente capacitado, capaz de abordar cualquier desafío que se presente. Además, mis intereses variados y mi amor por el aprendizaje continuo me permiten aportar diferentes perspectivas y habilidades a cualquier equipo o proyecto en el que me involucre.",
+      "DOWNLOAD_CV": "Descargar CV"
     },
     "PORTFOLIO": {
       "TITLE": "Projectos",

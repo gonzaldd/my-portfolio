@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 
-import { portfolio as portfolioList } from '../assets/data.json'
+import { portfolio as portfolioList } from '../../data.json'
 import Chip from '../components/chip'
 
 import Picture from '../assets/portfolio-example.webp'
