@@ -3,7 +3,9 @@
     "HEADER": {
       "ABOUT_TITLE": "About",
       "PORTFOLIO_TITLE": "Projects",
-      "CONTACT_TITLE": "Contact"
+      "CONTACT_TITLE": "Contact",
+      "THANKS_VISITE_TEXT": "Thank you for visiting me!",
+      "WEB_TITLE": "Gonzalo De Domingo"
     },
     "HOME": {
       "GREETING": "Hello, I'm",
@@ -34,7 +36,9 @@
     "HEADER": {
       "ABOUT_TITLE": "Sobre mí",
       "PORTFOLIO_TITLE": "Portfolio",
-      "CONTACT_TITLE": "Contacto"
+      "CONTACT_TITLE": "Contacto",
+      "THANKS_VISITE_TEXT": "¡Gracias por visitarme!",
+      "WEB_TITLE": "Gonzalo De Domingo"
     },
     "HOME": {
       "GREETING": "Hola, mi nombre es",
