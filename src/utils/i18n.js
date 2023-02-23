@@ -6,7 +6,7 @@ i18n.use(initReactI18next).init({
   resources: {
     ...translations,
   },
-  lng: 'en', // if you're using a language detector, do not define the lng option
+  lng: localStorage.lng || 'en', // if you're using a language detector, do not define the lng option
   fallbackLng: 'en',
 
   interpolation: {
