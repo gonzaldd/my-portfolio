@@ -1,11 +1,25 @@
-import ProfilePic from '../assets/profile-pic.png'
+import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 
 import haptic from '../utils/vibrate'
 import toTop from '../utils/toTop'
 
+const useChangeTitle = () => {
+  const { t } = useTranslation('HEADER')
+
+  useState(() => {
+    window?.addEventListener(
+      'blur',
+      () => (document.title = t('THANKS_VISITE_TEXT'))
+    )
+
+    window?.addEventListener('focus', () => (document.title = t('WEB_TITLE')))
+  }, [])
+}
+
 export default () => {
-  const { t, i18n } = useTranslation('HEADER')
+  const { t } = useTranslation('HEADER')
+  useChangeTitle()
 
   const moveToTop = () => {
     haptic()
