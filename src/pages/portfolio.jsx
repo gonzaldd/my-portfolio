@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next'
 import { portfolio as portfolioList } from '../../data.json'
 import Chip from '../components/chip'
 
-import Picture from '../assets/portfolio-example.webp'
+//import Picture from '../assets/portfolio-example.webp'
 
 const Portfolio = () => {
   const [showProject, setShowProject] = useState(false)
@@ -29,18 +29,14 @@ const Portfolio = () => {
                   <p className="font-medium text-lg mt-2 whitespace-nowrap text-ellipsis overflow-hidden">
                     {portfolio?.title}
                   </p>
-                  <img className="rounded-lg" src={Picture} />
+                  {/* <img className="rounded-lg" src={Picture} /> */}
                 </div>
               )
             })}
           </section>
         </>
       ) : (
-        <ProjectView
-          {...showProject}
-          img={Picture}
-          close={() => setShowProject(false)}
-        />
+        <ProjectView {...showProject} close={() => setShowProject(false)} />
       )}
     </div>
   )
