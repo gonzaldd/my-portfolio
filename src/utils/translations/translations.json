@@ -1,15 +1,14 @@
 {
   "en": {
+    "HEADER": {
+      "ABOUT_TITLE": "About",
+      "PORTFOLIO_TITLE": "Projects",
+      "CONTACT_TITLE": "Contact"
+    },
     "HOME": {
       "GREETING": "Hello, I'm",
       "ROLE": "Senior Software Engineer",
-      "MY_NAME": "Gonzalo De Domingo",
-      "ABOUT_ME_BUTTON": "More About me",
-      "PORTFOLIO_BUTTON": "Portfolio"
-    },
-    "404": {
-      "GO_TO_HOME": "Go Home",
-      "GENERIC_ERROR": "Sorry, an unexpected error has occurred."
+      "MY_NAME": "Gonzalo De Domingo"
     },
     "ABOUT_ME": {
       "TITLE": "About Me",
@@ -22,20 +21,25 @@
       "CONTACT_ME": "Contact me"
     },
     "PORTFOLIO": {
-      "TITLE": "Recent Work"
+      "TITLE": "Projects",
+      "GO_BACK_TEXT": "Show all Projects"
+    },
+    "CONTACT": {
+      "TITLE": "Contact me",
+      "EMAIL_TEXT": "Email",
+      "SOCIAL_NETWORKS_TEXT": "Social Networks"
     }
   },
   "es": {
+    "HEADER": {
+      "ABOUT_TITLE": "Sobre mi",
+      "PORTFOLIO_TITLE": "Portfolio",
+      "CONTACT_TITLE": "Contacto"
+    },
     "HOME": {
       "GREETING": "Hola, mi nombre es",
       "ROLE": "Senior Software Engineer",
-      "MY_NAME": "Gonzalo De Domingo",
-      "ABOUT_ME_BUTTON": "Más de mi",
-      "PORTFOLIO_BUTTON": "Portfolio"
-    },
-    "404": {
-      "GO_TO_HOME": "Ir al inicio",
-      "GENERIC_ERROR": "Lo siento, se ha producido un error inesperado."
+      "MY_NAME": "Gonzalo De Domingo"
     },
     "ABOUT_ME": {
       "TITLE": "Sobre mi",
@@ -45,10 +49,16 @@
       "DESCRIPTION_2": "Además de mi experiencia técnica, soy una persona muy curiosa y me encanta aprender cosas nuevas. Soy un ávido lector y me gusta estar al día con las últimas tendencias y avances en mi campo. También soy un apasionado del cine y me encanta ver películas de diferentes géneros y estilos. Como complemento a mi vida sedentaria de programador, también me gusta mantenerme activo y en forma, y disfruto del ejercicio regular.",
       "DESCRIPTION_3": "Mi combinación de habilidades técnicas y curiosidad intelectual me convierte en un desarrollador de software altamente capacitado, capaz de abordar cualquier desafío que se presente. Además, mis intereses variados y mi amor por el aprendizaje continuo me permiten aportar diferentes perspectivas y habilidades a cualquier equipo o proyecto en el que me involucre. Si está buscando un desarrollador de software altamente capacitado y curioso, ¡no dude en ponerse en contacto conmigo!",
       "DOWNLOAD_CV": "Descargar CV",
-      "CONTACT_ME": "Contacto",
-      "PORTFOLIO": {
-        "TITLE": "Trabajos Recientes"
-      }
+      "CONTACT_ME": "Contacto"
+    },
+    "PORTFOLIO": {
+      "TITLE": "Projectos",
+      "GO_BACK_TEXT": "Ver todos los Proyectos"
+    },
+    "CONTACT": {
+      "TITLE": "Contáctame",
+      "EMAIL_TEXT": "Email",
+      "SOCIAL_NETWORKS_TEXT": "Redes Sociales"
     }
   }
 }
