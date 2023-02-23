@@ -19,7 +19,7 @@ html {
   height: 100vh;
   scroll-behavior: smooth;
   min-width: 320px;
-  scroll-padding-top: 10%;
+  scroll-padding-top: 12%;
 }
 #root {
   display: flex;
