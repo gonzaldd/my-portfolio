@@ -11,7 +11,7 @@ const BasicData = ({ data = [] }) => {
       {data.map((rowData, i) => (
         <div
           key={`${rowData?.company}${i}`}
-          className={`${i + 1 === data.length ? '' : 'mb-6'} w-full`}
+          className={`${i + 1 === data.length ? '' : 'mb-12'} w-full`}
         >
           <div className="flex flex-col-reverse md:flex-row gap-x-5 items-baseline">
             <p className="font-medium text-xl xl:text-2xl mb-4">
