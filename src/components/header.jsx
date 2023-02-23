@@ -2,13 +2,14 @@ import ProfilePic from '../assets/profile-pic.png'
 import { useTranslation } from 'react-i18next'
 
 import haptic from '../utils/vibrate'
+import toTop from '../utils/toTop'
 
 export default () => {
   const { t, i18n } = useTranslation('HEADER')
 
   const moveToTop = () => {
     haptic()
-    window?.scrollTo({ top: 0, behavior: 'smooth' })
+    toTop()
   }
 
   return (

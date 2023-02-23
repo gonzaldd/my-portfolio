@@ -18,8 +18,11 @@ const AboutMe = () => {
   }
 
   return (
-    <section id="about-me" className="flex flex-col pb-48">
-      <div className="flex flex-col md:flex-row flex-wrap px-8 py-6 md:px-16 md:py-10 gap-x-40">
+    <section
+      id="about-me"
+      className="flex flex-col pb-48 px-8 py-6 md:px-16 md:py-10"
+    >
+      <div className="flex flex-col md:flex-row flex-wrap gap-x-40">
         <div className="flex-initial mb-[5%] w-[10%]">
           <p className="text-3xl whitespace-pre">{t('TITLE')}</p>
         </div>
@@ -33,7 +36,7 @@ const AboutMe = () => {
           </p>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row flex-wrap px-8 py-6 md:px-16 md:py-10 gap-x-40">
+      <div className="flex flex-col md:flex-row flex-wrap gap-x-40 mt-10">
         <div className="flex-initial mb-[5%] w-[10%]">
           <p className="text-3xl whitespace-pre">{t('EXPERIENCE_TITLE')}</p>
         </div>
@@ -41,7 +44,7 @@ const AboutMe = () => {
           <BasicData data={experience} />
         </div>
       </div>
-      <div className="flex flex-col md:flex-row flex-wrap px-8 py-6 md:px-16 md:py-10 gap-x-40">
+      <div className="flex flex-col md:flex-row flex-wrap gap-x-40 mt-10">
         <div className="flex-initial mb-[5%] w-[10%]">
           <p className="text-3xl whitespace-pre">{t('EDUCATION_TITLE')}</p>
         </div>

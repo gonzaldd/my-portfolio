@@ -1,5 +1,7 @@
 import { useTranslation } from 'react-i18next'
 
+import toTop from '../utils/toTop'
+
 const languages = {
   en: 'English',
   es: 'Español',
@@ -8,9 +10,11 @@ const languages = {
 const Footer = () => {
   const { i18n } = useTranslation('FOOTER')
 
-  const changeLanguage = () => {
+  const changeLanguage = (lng) => {
     try {
-      i18n.changeLanguage(i18n.language === 'es' ? 'en' : 'es')
+      if (i18n.language !== lng) toTop()
+
+      i18n.changeLanguage(lng)
       localStorage.setItem('lng', i18n.language)
     } catch (error) {
       console.log(error)
@@ -21,10 +25,9 @@ const Footer = () => {
     <footer
       id="footer"
       className="flex justify-center items-center gap-10 h-[80px] mt-16"
-      onClick={changeLanguage}
     >
       {Object.keys(languages).map((key, i) => (
-        <div key={`${key}-${i}`}>
+        <div key={`${key}-${i}`} onClick={() => changeLanguage(key)}>
           <p
             className={`${
               i18n.language === key ? 'underline underline-offset-2' : ''
