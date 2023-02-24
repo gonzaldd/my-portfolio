@@ -2,8 +2,7 @@
   --primary-color: #393939;
   --background-color: #111111;
   --secondary-color: white;
-  --regular-font: 'HelveticaNowDisplay-Regular';
-  --light-font: 'HelveticaNowDisplay-Light';
+  --main-font: 'HelveticaNowDisplay';
 }
 
 * {
@@ -32,7 +31,7 @@ body,
   height: 100%;
   background-color: var(--background-color);
   color: var(--secondary-color);
-  font-family: var(--regular-font);
+  font-family: var(--main-font);
 }
 
 text-link {
@@ -45,6 +44,16 @@ text-link {
 
 .fade-in-animation {
   animation: fade-in 1s;
+}
+
+::-moz-selection {
+  background-color: var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+::selection {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 @keyframes fade-out {

@@ -15,11 +15,12 @@ const Footer = () => {
       if (i18n.language !== lng) toTop()
 
       i18n.changeLanguage(lng)
-      localStorage.setItem('lng', i18n.language)
     } catch (error) {
       console.log(error)
     }
   }
+
+  const parseLanguage = (i18nLng) => (/^es(-.*)?$/.test(i18nLng) ? 'es' : 'en')
 
   return (
     <footer
@@ -30,7 +31,9 @@ const Footer = () => {
         <div key={`${key}-${i}`} onClick={() => changeLanguage(key)}>
           <p
             className={`${
-              i18n.language === key ? 'underline underline-offset-2' : ''
+              parseLanguage(i18n.language) === key
+                ? 'underline underline-offset-2'
+                : ''
             } cursor-pointer fade-out-transition-hover`}
           >
             {languages[key]}
