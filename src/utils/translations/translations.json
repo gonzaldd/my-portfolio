@@ -29,7 +29,9 @@
     "CONTACT": {
       "TITLE": "Contact Me",
       "EMAIL_TEXT": "Email",
-      "SOCIAL_NETWORKS_TEXT": "Social Networks"
+      "SOCIAL_NETWORKS_TEXT": "Social Networks",
+      "SEND_MAIL_BUTTON": "Send Email",
+      "LOCALIZATION_TEXT": "Localization"
     }
   },
   "es": {
@@ -60,7 +62,9 @@
     "CONTACT": {
       "TITLE": "Contáctame",
       "EMAIL_TEXT": "Email",
-      "SOCIAL_NETWORKS_TEXT": "Redes Sociales"
+      "SOCIAL_NETWORKS_TEXT": "Redes Sociales",
+      "SEND_MAIL_BUTTON": "Enviar mail",
+      "LOCALIZATION_TEXT": "Localización"
     }
   }
 }

@@ -53,7 +53,7 @@ const AboutMe = () => {
         </div>
       </div>
       <div className="flex justify-center mt-20">
-        <button className="bg-secondary-color text-primary-color p-5 rounded-sm fade-out-transition-hover">
+        <button className="bg-secondary-color text-primary-color p-5 rounded-sm fade-out-transition-hover font-semibold">
           {t('DOWNLOAD_CV')}
         </button>
       </div>
