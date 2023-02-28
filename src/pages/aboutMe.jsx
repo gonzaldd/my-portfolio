@@ -27,8 +27,14 @@ const AboutMe = () => {
           <p className="text-3xl whitespace-pre">{t('TITLE')}</p>
         </div>
         <div className="flex-1">
-          <p className="text-base font-light opacity-60 break-words">
-            {t('DESCRIPTION_1')}
+          <p>
+            <span className="text-base font-light opacity-60 break-words">
+              {t('DESCRIPTION_1_A')}
+            </span>
+            <span className="text-highlight-color opacity-90">
+              {t('DESCRIPTION_1_B')}
+            </span>
+            <span className="opacity-60">{t('DESCRIPTION_1_C')}</span>
           </p>
           <br />
           <p className="text-base font-light opacity-60 break-words">
