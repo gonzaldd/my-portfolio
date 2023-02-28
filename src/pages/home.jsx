@@ -13,7 +13,9 @@ function Home() {
         <p className="text-5xl sm:text-6xl lg:text-7xl font-medium">
           {t('MY_NAME')}
         </p>
-        <p className="sm:text-2xl font-light mt-2">{t('ROLE')}</p>
+        <p className="sm:text-2xl font-light mt-2 text-highlight-color">
+          {t('ROLE')}
+        </p>
       </div>
     </section>
   )

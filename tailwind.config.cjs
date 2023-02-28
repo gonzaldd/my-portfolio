@@ -7,7 +7,8 @@ module.exports = {
       colors: {
         "primary-color": "var(--primary-color)",
         "background-color": "var(--background-color)",
-        "secondary-color": "var(--secondary-color)"
+        "secondary-color": "var(--secondary-color)",
+        "highlight-color": "var(--highlight-color)"
       }
     }, screens: {
       xs: '320px',
