@@ -1,4 +1,4 @@
-import { useTranslation } from 'react-i18next'
+import { useTranslation, Trans } from 'react-i18next'
 
 import BasicData from '../components/basicData'
 import { experience, education } from '../../data.json'
@@ -20,25 +20,33 @@ const AboutMe = () => {
   return (
     <section
       id="about-me"
-      className="flex flex-col pb-48 px-8 py-6 md:px-16 md:py-10"
+      className="flex flex-col pb-48 px-8 py-6 md:px-16 md:py-10 mb-12"
     >
       <div className="flex flex-col md:flex-row flex-wrap gap-x-40">
         <div className="flex-initial mb-[5%] w-[10%]">
           <p className="text-3xl whitespace-pre">{t('TITLE')}</p>
         </div>
-        <div className="flex-1">
+        <div className="flex-1 mb-12">
           <p>
-            <span className="text-base font-light opacity-60 break-words">
-              {t('DESCRIPTION_1_A')}
-            </span>
-            <span className="text-highlight-color opacity-90">
-              {t('DESCRIPTION_1_B')}
-            </span>
-            <span className="opacity-60">{t('DESCRIPTION_1_C')}</span>
+            <Trans
+              defaults={t('DESCRIPTION')}
+              components={[
+                <span className="text-base font-light opacity-60 break-words"></span>,
+                <span className="text-highlight-color opacity-90"></span>,
+                <span className="text-base font-light opacity-60 break-words"></span>,
+              ]}
+            ></Trans>
           </p>
           <br />
-          <p className="text-base font-light opacity-60 break-words">
-            {t('DESCRIPTION_2')}
+          <p>
+            <Trans
+              defaults={t('DESCRIPTION_2')}
+              components={[
+                <span className="text-base font-light opacity-60 break-words"></span>,
+                <span className="text-highlight-color opacity-90"></span>,
+                <span className="text-base font-light opacity-60 break-words"></span>,
+              ]}
+            ></Trans>
           </p>
         </div>
       </div>
@@ -46,7 +54,7 @@ const AboutMe = () => {
         <div className="flex-initial mb-[5%] w-[10%]">
           <p className="text-3xl whitespace-pre">{t('EXPERIENCE_TITLE')}</p>
         </div>
-        <div className="flex-1">
+        <div className="flex-1 mb-12">
           <BasicData data={experience} />
         </div>
       </div>
@@ -59,7 +67,7 @@ const AboutMe = () => {
         </div>
       </div>
       <div className="flex justify-center mt-20">
-        <button className="bg-secondary-color text-primary-color p-5 rounded-sm fade-out-transition-hover font-semibold">
+        <button className="bg-secondary-color text-primary-color p-5 rounded-sm scale-hover-transition font-semibold">
           {t('DOWNLOAD_CV')}
         </button>
       </div>

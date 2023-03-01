@@ -1,0 +1,1 @@
+export default (i18nLng) => (/^es(-.*)?$/.test(i18nLng) ? 'es' : 'en')

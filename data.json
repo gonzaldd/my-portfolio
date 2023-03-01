@@ -4,39 +4,32 @@
       "time": "2021 - 2023",
       "name": "Nubi",
       "position": "Sr Software Engineer",
-      "description": "Como miembro del equipo de desarrollo front-end, fui responsable de la creación de aplicaciones móviles utilizando React Native. Además, tuve la oportunidad de compartir mis conocimientos y experiencia en NodeJS con mis compañeros de equipo, brindando capacitación para ayudarlos a convertirse en futuros desarrolladores full-stack. Gracias a mi contribución, el equipo pudo adquirir nuevas habilidades y mejorar su capacidad para ofrecer soluciones de calidad.",
-      "description_en": "As a member of the front-end development team, I was responsible for creating mobile applications using React Native. Additionally, I had the opportunity to share my knowledge and experience in NodeJS with my team members, providing training to help them become future full-stack developers. Thanks to my contribution, the team was able to acquire new skills and improve their ability to deliver quality solutions."
+      "description": "<span class=\"text-base font-light opacity-60 break-words\">Como parte del equipo de desarrollo front-end, fui responsable de la creación de nuevas funcionalidades para apps móviles utilizando React Native. Además, tuve la oportunidad de</span> <span class=\"text-highlight-color\">compartir mis conocimientos y experiencia</span> <span class=\"text-base font-light opacity-60 break-words\">en NodeJS con mis compañeros de equipo, brindando capacitación para ayudarlos a convertirse en futuros desarrolladores full-stack. Gracias a mi contribución, el equipo pudo adquirir nuevas habilidades y mejorar su capacidad para ofrecer soluciones de calidad.</span>",
+      "description_en": "<span class=\"text-base font-light opacity-60 break-words\">As part of the front-end development team, I was responsible for creating new functionalities for mobile apps using React Native. Additionally, I had the opportunity to</span> <span class=\"text-highlight-color\">share my knowledge and experience</span> <span class=\"text-base font-light opacity-60 break-words\">in NodeJS with my teammates, providing training to help them become future full-stack developers. Thanks to my contribution, the team was able to acquire new skills and improve its ability to deliver quality solutions.</span>"
     },
     {
       "time": "2020 - 2021",
       "name": "Swiss Medical",
       "position": "Fullstack Developer",
-      "description": "Como desarrollador Full-stack, utilicé mi experiencia en JavaScript para completar con éxito el flujo de altas de nuevos clientes tanto en el back-end como en el front-end. Además, como parte de mi enfoque en el mantenimiento del código, realicé mejoras significativas para asegurar que sea fácilmente mantenible y escalable a medida que las necesidades crecen. Gracias a mi aporte, logramos una implementación más rápida y efectiva del proceso de alta de clientes, lo que a su vez mejoró la experiencia de usuario y la eficiencia operativa de la empresa.",
-      "description_en": "As a Full-stack developer, I utilized my experience in JavaScript to successfully complete the new client registration flow both on the back-end and front-end. Additionally, as part of my focus on code maintenance, I made significant improvements to ensure that it is easily maintainable and scalable as needs grow. Thanks to my contribution, we achieved a faster and more effective implementation of the client registration process, which in turn improved the user experience and operational efficiency of the company."
+      "description": "<span class=\"text-base font-light opacity-60 break-words\">Como desarrollador Full-stack, utilicé mi experiencia en JavaScript para completar con éxito el flujo de altas de nuevos clientes tanto en el back-end como en el front-end. Además, como parte de mi enfoque en el mantenimiento del código, realicé mejoras significativas para asegurar que sea fácilmente mantenible y escalable a medida que las necesidades crecen. Gracias a mi aporte, logramos una implementación más rápida y efectiva del proceso de alta de clientes, lo que a su vez</span> <span class=\"text-highlight-color\">mejoró la experiencia de usuario y la eficiencia operativa de la empresa.</span>",
+      "description_en": "<span class=\"text-base font-light opacity-60 break-words\">As a Full-stack developer, I used my experience in JavaScript to successfully complete the new client onboarding flow both on the back-end and front-end. Additionally, as part of my focus on code maintenance, I made significant improvements to ensure it was easily maintainable and scalable as needs grew. Thanks to my contribution, we achieved a faster and more effective implementation of the client onboarding process, which in turn</span> <span class=\"text-highlight-color\">improved the user experience and operational efficiency of the company.</span>"
     },
     {
       "time": "2017 - 2020",
       "name": "Jaits",
       "position": "Fullstack Developer",
-      "description": "Formé parte del desarrollo de una aplicación desde cero, utilizando un stack tecnológico basado en JavaScript. La aplicación resolvió los problemas relacionados con la reserva de transporte para viajes, ofreciendo una solución simple y eficaz para asegurar un lugar y proporcionando información de ubicación en tiempo real del transporte. Como parte de mi trabajo, colaboré con el equipo para diseñar, construir y desplegar la aplicación, lo que resultó en una experiencia de usuario satisfactoria y un mayor éxito comercial para las empresas que contrataron el servicio. Hoy en día, la app tiene más de 10.000 descargas en Play Store y App Store.",
-      "description_en": "I was part of the development of an application from scratch, using a technology stack based on JavaScript. The application solved problems related to booking transportation for trips, offering a simple and effective solution to secure a spot and providing real-time location information for the transportation. As part of my work, I collaborated with the team to design, build, and deploy the application, resulting in a satisfying user experience and increased business success for the companies that contracted the service. Today, the app has more than 10,000 downloads on Play Store and App Store."
-    },
-    {
-      "time": "2016 - 2017",
-      "name": "JMA Asociados",
-      "position": "Developer",
-      "description": "Proporcioné soporte en la implementación de nuevas funcionalidades en un sistema de facturación utilizando Genexus. Mi trabajo se centró en programar la lógica de negocio y colaborar con el equipo de desarrollo para asegurar el cumplimiento de los requisitos del proyecto.Proporcioné soporte en la implementación de nuevas funcionalidades en un sistema de facturación utilizando Genexus. Mi trabajo se centró en programar la lógica de negocio y colaborar con el equipo de desarrollo para asegurar el cumplimiento de los requisitos del proyecto.",
-      "description_en": "I provided support in the implementation of new functionalities in a billing system using Genexus. My work focused on programming the business logic and collaborating with the development team to ensure compliance with project requirements."
+      "description": "<span class=\"text-highlight-color\">Mi primera startup</span><span class=\"text-base font-light opacity-60 break-words\">. Utilizé un stack tecnológico basado en JavaScript. La app resolvió los problemas relacionados con la reserva de transporte para viajes, ofreciendo una solución simple y eficaz para asegurar un lugar y proporcionando información de ubicación en tiempo real del transporte. Los usuarios obtuvieron una experiencia muy satisfactoria, mientras que</span> <span class=\"text-highlight-color\">las compañias lograron un mayor éxito comercial y organizacional</span>. <span class=\"text-base font-light opacity-60 break-words\">Hoy en día, la app tiene más de 10.000 descargas en Play Store y App Store.</span>",
+      "description_en": "<span class=\"text-highlight-color\">My first startup</span><span class=\"text-base font-light opacity-60 break-words\">. I used a JavaScript-based technology stack. The app solved issues related to transportation booking for trips, offering a simple and effective solution to secure a spot and providing real-time location information of the transportation. Users had a very satisfying experience, while</span> <span class=\"text-highlight-color\">companies achieved greater commercial and organizational success</span>. <span class=\"text-base font-light opacity-60 break-words\">Today, the app has over 10,000 downloads on the Play Store and App Store.</span>"
     }
   ],
   "education": [
     {
       "time": "2013 - 2017",
       "name": "UNLa",
-      "position": "Lic. en Sistemas",
-      "position_en": "Computer Systems",
+      "position": "Licenciatura en Sistemas",
+      "position_en": "Licenciatura en Sistemas",
       "description": "Universidad Nacional de Lanús",
-      "description_en": "Degree in computer systems"
+      "description_en": "Licenciatura en Sistemas"
     }
   ],
   "portfolio": [
@@ -59,5 +52,17 @@
   ],
   "email": "gonzalodedomingo@gmail.com",
   "linkedin": "https://www.linkedin.com/in/gdedomingo",
-  "github": "https://github.com/gonzaldd/"
+  "github": "https://github.com/gonzaldd/",
+  "extra": [ 
+    {
+      "time": "2016 - 2017",
+      "name": "JMA Asociados",
+      "position": "Developer",
+      "description": "Proporcioné soporte en la implementación de nuevas funcionalidades en un sistema de facturación utilizando Genexus. Mi trabajo se centró en programar la lógica de negocio y colaborar con el equipo de desarrollo para asegurar el cumplimiento de los requisitos del proyecto.Proporcioné soporte en la implementación de nuevas funcionalidades en un sistema de facturación utilizando Genexus. Mi trabajo se centró en programar la lógica de negocio y colaborar con el equipo de desarrollo para asegurar el cumplimiento de los requisitos del proyecto.",
+      "description_en": "I provided support in the implementation of new functionalities in a billing system using Genexus. My work focused on programming the business logic and collaborating with the development team to ensure compliance with project requirements."
+    }
+  ]
 }
+
+
+   
