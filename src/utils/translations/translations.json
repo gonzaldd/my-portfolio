@@ -16,10 +16,8 @@
       "TITLE": "About Me",
       "EXPERIENCE_TITLE": "Experience",
       "EDUCATION_TITLE": "Education",
-      "DESCRIPTION_1_A": "As a highly experienced software developer with over ",
-      "DESCRIPTION_1_B": "6 years of experience, ",
-      "DESCRIPTION_1_C": "I have worked with a variety of technologies, but my specialty is JavaScript. I have extensive experience working with ReactJS, React Native, NodeJS, and ExpressJS. I have developed web and mobile applications, and have contributed to large-scale projects, which has given me a deep understanding of how to create high-quality, scalable applications.",
-      "DESCRIPTION_2": "In addition to my technical experience, I am a very curious person and love to learn new things. I am an avid reader and enjoy keeping up with the latest trends and advancements in my field. I am also passionate about movies and enjoy watching films of different genres and styles. As a complement to my sedentary programmer lifestyle, I also like to stay active and in shape, and enjoy regular exercise.",
+      "DESCRIPTION": "<0>As a highly experienced software developer with over</0> <1>6 years of experience</1> <2>, I have worked with a variety of technologies, but my specialty is JavaScript. I have developed web and mobile applications.</2>",      
+      "DESCRIPTION_2": "<0>My combination of technical skills and curiosity makes me a highly skilled software developer, capable of tackling any challenge that arises. Additionally, my varied interests and love for continuous learning allow me to bring</0> <1>different perspectives</1> <2>and skills to any team or project I'm involved in.</2>",
       "DOWNLOAD_CV": "Download Resume",
       "CONTACT_ME": "Contact me"
     },
@@ -52,11 +50,9 @@
       "TITLE": "Sobre mí",
       "EXPERIENCE_TITLE": "Experiencia",
       "EDUCATION_TITLE": "Educación",
-      "DESCRIPTION_1_A": "Como desarrollador de software con más ",
-      "DESCRIPTION_1_B": "de 6 años de experiencia, ",
-      "DESCRIPTION_1_C":"he trabajado con una variedad de tecnologías, pero mi especialidad es JavaScript. He desarrollado aplicaciones web y móviles, y he contribuido a proyectos de gran escala, lo que me ha dado una comprensión profunda de cómo crear aplicaciones de alta calidad y escalables.",
-      "DESCRIPTION_2": "Mi combinación de habilidades técnicas y curiosidad intelectual me convierte en un desarrollador de software altamente capacitado, capaz de abordar cualquier desafío que se presente. Además, mis intereses variados y mi amor por el aprendizaje continuo me permiten aportar diferentes perspectivas y habilidades a cualquier equipo o proyecto en el que me involucre.",
-      "DOWNLOAD_CV": "Mira mi CV"
+      "DESCRIPTION": "<0>Como desarrollador de software con más de</0> <1>6 años de experiencia</1><2>, he trabajado con una variedad de tecnologías, pero mi especialidad es JavaScript. He desarrollado el frontend y el backend de aplicaciones web y móviles</2>",
+      "DESCRIPTION_2": "<0>Mi combinación de habilidades técnicas y curiosidad me convierte en un desarrollador de software altamente capacitado, capaz de abordar cualquier desafío que se presente. Además, mis intereses variados y mi amor por el aprendizaje continuo me permiten aportar</0> <1>diferentes perspectivas</1> <2>y habilidades a cualquier equipo o proyecto en el que me involucre.</2>",
+      "DOWNLOAD_CV": "Descargá mi CV"
     },
     "PORTFOLIO": {
       "TITLE": "Projectos",

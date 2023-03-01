@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next'
 
 import toTop from '../utils/toTop'
+import parseLng from '../utils/parse-lng'
 
 const languages = {
   en: 'English',
@@ -20,8 +21,6 @@ const Footer = () => {
     }
   }
 
-  const parseLanguage = (i18nLng) => (/^es(-.*)?$/.test(i18nLng) ? 'es' : 'en')
-
   return (
     <footer
       id="footer"
@@ -31,7 +30,7 @@ const Footer = () => {
         <div key={`${key}-${i}`} onClick={() => changeLanguage(key)}>
           <p
             className={`${
-              parseLanguage(i18n.language) === key
+              parseLng(i18n.language) === key
                 ? 'underline underline-offset-2'
                 : ''
             } cursor-pointer fade-out-transition-hover`}

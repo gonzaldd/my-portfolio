@@ -1,18 +1,18 @@
 import { useTranslation } from 'react-i18next'
 
+import parseLng from '../utils/parse-lng'
+
 const BasicData = ({ data = [] }) => {
   const { i18n } = useTranslation()
 
-  const lngKey = i18n.language === 'es' ? 'description' : 'description_en'
-  const positionKey = i18n.language === 'es' ? 'position' : 'position_en'
+  const lng = parseLng(i18n.language)
+  const lngKey = lng === 'es' ? 'description' : 'description_en'
+  const positionKey = lng === 'es' ? 'position' : 'position_en'
 
   return (
-    <div className="flex flex-wrap w-full">
+    <div className="flex flex-wrap w-full gap-y-12">
       {data.map((rowData, i) => (
-        <div
-          key={`${rowData?.company}${i}`}
-          className={`${i + 1 === data.length ? '' : 'mb-12'} w-full`}
-        >
+        <div key={`${rowData?.company}${i}`} className={`w-full`}>
           <div className="flex flex-col-reverse md:flex-row gap-x-5 items-baseline">
             <p className="font-medium text-xl xl:text-2xl mb-4">
               {rowData?.name}
@@ -25,9 +25,11 @@ const BasicData = ({ data = [] }) => {
               {rowData?.time}
             </p>
           </div>
-          <p className="text-base font-light opacity-60 break-words">
-            {rowData?.[lngKey] || rowData?.description}
-          </p>
+          <p
+            dangerouslySetInnerHTML={{
+              __html: rowData?.[lngKey] || rowData?.description,
+            }}
+          ></p>
           {/* <div className="inline-flex gap-2 flex-wrap">
             {rowData?.techs?.map((tech) => (
               <Chip text={tech} />
