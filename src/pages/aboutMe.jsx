@@ -1,21 +1,10 @@
 import { useTranslation, Trans } from 'react-i18next'
 
 import BasicData from '../components/basicData'
-import { experience, education } from '../../data.json'
+import { experience, education, resumeLink } from '../../data.json'
 
 const AboutMe = () => {
   const { t } = useTranslation('ABOUT_ME')
-
-  const onButtonClick = async () => {
-    //Save pdf in /public
-    const response = await fetch('Gonzalo-De-Domingo-CV.pdf')
-    const blob = await response.blob()
-    const fileURL = window.URL.createObjectURL(blob)
-    let alink = document.createElement('a')
-    alink.href = fileURL
-    alink.download = 'Gonzalo-De-Domingo.pdf'
-    alink.click()
-  }
 
   return (
     <section
@@ -67,9 +56,13 @@ const AboutMe = () => {
         </div>
       </div>
       <div className="flex justify-center mt-20">
-        <button className="bg-secondary-color text-primary-color p-5 rounded-sm scale-hover-transition font-semibold">
+        <a
+          className="bg-secondary-color text-primary-color p-5 rounded-sm scale-hover-transition font-semibold"
+          href={resumeLink}
+          target="_blank"
+        >
           {t('DOWNLOAD_CV')}
-        </button>
+        </a>
       </div>
     </section>
   )
