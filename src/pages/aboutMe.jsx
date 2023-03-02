@@ -20,7 +20,7 @@ const AboutMe = () => {
   return (
     <section
       id="about-me"
-      className="flex flex-col pb-48 px-8 py-6 md:px-16 md:py-10 mb-12"
+      className="flex flex-col pb-0 px-8 py-6 md:px-16 md:py-10 mb-12"
     >
       <div className="flex flex-col md:flex-row flex-wrap gap-x-40">
         <div className="flex-initial mb-[5%] w-[10%]">
