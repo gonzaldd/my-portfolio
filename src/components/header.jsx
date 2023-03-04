@@ -31,7 +31,7 @@ export default () => {
       <div className="flex items-center justify-around sm:justify-between flex-nowrap px-8 py-6 md:px-16 md:py-10 bg-background-color text-lg md:text-xl font-medium">
         <div className="flex-initial justify-start scale-hover-transition">
           <img
-            src="https://res.cloudinary.com/ds30qs4yx/image/fetch/w_144,h_144,c_fill,f_auto/https://gdd-portfolio.web.app/assets/profile-pic-62d12921.png"
+            src="https://res.cloudinary.com/ds30qs4yx/image/upload/c_fill,f_auto,h_144,w_144/v1677970995/profile-pic_dqdkje.webp"
             className="rounded-full h-[7vh] w-[7vh] cursor-pointer"
             onClick={moveToTop}
           />
