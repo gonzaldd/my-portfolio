@@ -31,3 +31,5 @@ src/assets/profile-pic-noback.webp
 !public/Gonzalo-De-Domingo-CV.pdf
 .firebase/hosting.cHVibGlj.cache
 .firebase/hosting.ZGlzdA.cache
+public/assets/
+public/index.html

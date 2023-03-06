@@ -2,9 +2,14 @@ import { useTranslation, Trans } from 'react-i18next'
 
 import BasicData from '../components/basicData'
 import { experience, education, resumeLink } from '../../data.json'
+import analyticsInstance from '../utils/analytics'
 
 const AboutMe = () => {
   const { t } = useTranslation('ABOUT_ME')
+
+  const sendEvent = () => {
+    analyticsInstance.sendAnalyticsEvent('DOWNLOAD_CV')
+  }
 
   return (
     <section
@@ -60,6 +65,7 @@ const AboutMe = () => {
           className="bg-secondary-color text-primary-color p-5 rounded-sm scale-hover-transition font-semibold"
           href={resumeLink}
           target="_blank"
+          onClick={sendEvent}
         >
           {t('DOWNLOAD_CV')}
         </a>
