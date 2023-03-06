@@ -6,11 +6,11 @@ type Description_Lang = 'description' | "description_en"
 type Row = {
   company: String,
   name: String,
-  position: string,
-  position_en: string,
+  position?: string,
+  position_en?: string,
   time: string,
-  description: string,
-  description_en: string
+  description?: string,
+  description_en?: string
 }
 
 import parseLng from '../utils/parse-lng.js'
