@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 
 import haptic from '../utils/vibrate'
@@ -7,7 +7,7 @@ import toTop from '../utils/toTop'
 const useChangeTitle = () => {
   const { t } = useTranslation('HEADER')
 
-  useState(() => {
+  useEffect(() => {
     window?.addEventListener(
       'blur',
       () => (document.title = t('THANKS_VISITE_TEXT'))
