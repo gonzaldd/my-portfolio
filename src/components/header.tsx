@@ -17,7 +17,7 @@ const useChangeTitle = () => {
   }, [])
 }
 
-export default () => {
+export default (): JSX.Element => {
   const { t } = useTranslation('HEADER')
   useChangeTitle()
 

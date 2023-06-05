@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next'
 
 import data from '../../data.json'
 
-const Contact = () => {
+const Contact = (): JSX.Element => {
   const { t } = useTranslation('CONTACT')
 
   return (

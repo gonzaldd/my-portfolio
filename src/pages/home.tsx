@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next'
 
-function Home() {
+function Home(): JSX.Element {
   const { t } = useTranslation('HOME')
 
   return (

@@ -11,7 +11,7 @@ const languages = {
 const Footer = () => {
   const { i18n } = useTranslation('FOOTER')
 
-  const changeLanguage = (lng) => {
+  const changeLanguage = (lng: string) => {
     try {
       if (i18n.language !== lng) toTop()
 
@@ -26,7 +26,7 @@ const Footer = () => {
       id="footer"
       className="flex justify-center items-center gap-10 h-[80px] mt-16"
     >
-      {Object.keys(languages).map((key, i) => (
+      {Object.keys(languages).map((key: string, i) => (
         <div key={`${key}-${i}`} onClick={() => changeLanguage(key)}>
           <p
             className={`${

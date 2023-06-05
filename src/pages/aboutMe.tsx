@@ -4,7 +4,7 @@ import BasicData from '../components/basicData'
 import { experience, education, resumeLink } from '../../data.json'
 import analyticsInstance from '../utils/analytics'
 
-const AboutMe = () => {
+const AboutMe = (): JSX.Element => {
   const { t } = useTranslation('ABOUT_ME')
 
   const sendEvent = () => {
@@ -23,7 +23,7 @@ const AboutMe = () => {
         <div className="flex-1 mb-12">
           <p>
             <Trans
-              defaults={t('DESCRIPTION')}
+              defaults={t('DESCRIPTION') as string}
               components={[
                 <span className="text-base font-light opacity-60 break-words"></span>,
                 <span className="text-highlight-color opacity-90"></span>,
@@ -34,7 +34,7 @@ const AboutMe = () => {
           <br />
           <p>
             <Trans
-              defaults={t('DESCRIPTION_2')}
+              defaults={t('DESCRIPTION_2') as string}
               components={[
                 <span className="text-base font-light opacity-60 break-words"></span>,
                 <span className="text-highlight-color opacity-90"></span>,
